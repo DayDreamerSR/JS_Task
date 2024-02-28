@@ -1,9 +1,9 @@
 # Understanding the Difference Between Document and Window Objects in JavaScript
 
 ## Introduction
-JavaScript is a powerful language that allows developers to interact with and manipulate web pages in real-time. Two of the most important objects in JavaScript are the document and window objects. These objects serve different purposes and have different properties and methods. Let’s dive into the details.
+JavaScript is a powerful language that allows developers to interact with and manipulate web pages in real time. Two of the most important objects in JavaScript are the document and window objects. These objects serve different purposes and have different properties and methods. Let’s dive into the details.
 
-## Table of Contens
+## Table of Contents
  - The Window Object
  - The Document Object
  - Key Differences
@@ -18,16 +18,16 @@ The window object has properties like length, innerWidth, innerHeight, and metho
 ## The Document Object
 
 
-The document object, on the other hand, represents the HTML document loaded in that window. It is a property of the window object and can be accessed as window.document.
+The document object, on the other hand, represents the HTML document loaded in that window. It is a property of the window object and can be accessed as a window. document.
 
-The document object is the entry point to the web page’s content. It provides numerous properties and methods for accessing and manipulating the content. For example, document.body gives you access to the body element, document.forms gives you access to all the forms in the page, and document.cookie lets you work with cookies.
+The document object is the entry point to the web page’s content. It provides numerous properties and methods for accessing and manipulating the content. For example, document. body gives you access to the body element, and document. forms give you access to all the forms on the page and document. cookie lets you work with cookies.
 
 ## Key Differences
 
 While both window and document are fundamental to client-side JavaScript and often used interchangeably, they represent different things:
-- [Scope:] The window object represents the browser’s window and provides information about it, while the document object represents the HTML document within that window.
-- [Hierarchy:] The window object is the top-level object in the Browser Object Model (BOM). The document object is a property of the window object, making it a part of the window.
-- [Usages:] The window object is used for operations related to the entire browser window like changing the location of the window or resizing it. The document object is used for manipulating the content of the web page.
+- <Scope:> The window object represents the browser’s window and provides information about it, while the document object represents the HTML document within that window.
+- <Hierarchy:> The window object is the top-level object in the Browser Object Model (BOM). The document object is a property of the window object, making it a part of the window.
+- <Usages:> The window object is used for operations related to the entire browser window like changing the location of the window or resizing it. The document object is used for manipulating the content of the web page.
 
 ## Conclusion
 
